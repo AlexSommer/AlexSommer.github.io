@@ -1,0 +1,10 @@
+# configuration for Jekyll project
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog"
+      permalink: "/:categories/:year/:month/:day/:title/"
