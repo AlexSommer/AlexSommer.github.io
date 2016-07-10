@@ -64,7 +64,7 @@ th, td
 	border-bottom: 1px solid #ddd;
 }
 
-a.article-link
+a.article-link:link
 {
 	font-family: "Crimson Text", Georgia, serif;
   font-weight: 400;
