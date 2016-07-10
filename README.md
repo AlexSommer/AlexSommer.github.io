@@ -6,7 +6,7 @@
 * * *
 ##### History
 * * *
-Welcome to my site! I decided to build this just for fun as I had always wanted to work independently on a site that only I developed and was forced to learn about. I started this with AWS S3 + Route 53 but it was a bit confusing and overly robust, so in anger I moved to godaddy.com for my DNS services, email, and Linux hosting. But after I got that running basically I realized using a framework for blogging would be pretty essential, so I decided to switch back to what originally was alexsommer.github.io for static hosting (awesome that GitHub does this for $0 btw...) and then added some records to point to GitHubs hosting services from godaddy.
+Welcome to my site! I decided to build this for fun as I have always wanted to work independently on a site that only I developed and was thus forced to learn about all the details. I started this with AWS S3 + Route 53 but it was a bit confusing and overly robust, so in anger I moved to godaddy.com for my DNS services, email, and Linux hosting. But after I got that running rudimentarily I realized using a framework for blogging would be pretty essential, so I decided to switch back to what originally was alexsommer.github.io for static hosting (awesome that GitHub does this for $0 btw...) and then added some records to point to GitHubs hosting services from godaddy.
 
 * * *
 ##### Stack
@@ -17,6 +17,38 @@ Welcome to my site! I decided to build this just for fun as I had always wanted 
 * 1 CSS stylesheet and 2 templates [`styles.css`, `blog.html`, `default.html`]
 
 If you're unfamiliar with [Jekyll](http://jekylllrb.com), it is an awesome blog tool that lets you use html injections and templating to write blog posts and share media incredibly easy. It compiles your project into a `_site/` directory that is served publically. It's a very lightweight framework that seeks to not make any large assumptions about your site's workflow and setup, and thus permits a lot of flexibility. It also is open-sourced and has a really responsive and kind community under the MIT License.
+
+Here's a bash tree of my project's directory structure:
+```markdown
+├── CNAME
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── _config.yml
+├── _includes
+│   ├── google-analytics.html
+│   ├── header.html
+│   ├── page-bottom.html
+│   └── page-top.html
+├── _layouts
+│   ├── blog.html
+│   └── default.html
+├── _posts
+│   ├── 2010-11-08-first-post.md
+│   ├── 2013-12-19-religious-discourse-in-the-public-sphere.md
+│   └── 2016-07-09-uc-berkeley-antisemitism.md
+├── assets
+│   ├── css
+│   │   └── styles.css
+│   └── img
+│       ├── favicon.ico
+│       └── resume_2015.jpg
+├── blog
+│   └── index.html
+├── index.html
+└── resume
+    └── index.html
+```
 
 * * *
 ##### Lessons Learned
