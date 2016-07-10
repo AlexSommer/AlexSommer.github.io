@@ -7,4 +7,5 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
-      permalink: "/:categories/:year/:month/:day/:title/"
+      permalink: "/:title/"
+      excerpt_separator: "<!--more-->"
