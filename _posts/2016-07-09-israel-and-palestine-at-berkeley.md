@@ -1,5 +1,4 @@
 ---
-title: Israel and Palestine at UC Berkeley
+title: Israel and Palestine at U.C. Berkeley
 ---
 
-hi
