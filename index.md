@@ -1,8 +1,5 @@
 ---
 layout: default
 ---
-### **Image of the Day:** Dallas Officer Mourns with Colleagues in Local Hospital
-* * *
-
-<img src="/assets/img/dallas_cop_in_hospital.jpg" class="img-responsive">
-
+<img src="/assets/img/lisbon_wall_art.jpg" class="img-responsive">
+<center><h1><b>Lisbon, Portugal</b></h1></center>
