@@ -4,11 +4,6 @@
 #### tl;dr: **this is a website I made**
 
 * * *
-##### History
-* * *
-Welcome to my site! I decided to build this for fun as I have always wanted to work independently on a site that only I developed and was thus forced to learn about all the details. I started this with AWS S3 + Route 53 but it was a bit confusing and overly robust, so in anger I moved to godaddy.com for my DNS services, email, and Linux hosting. But after I got that running rudimentarily I realized using a framework for blogging would be pretty essential, so I decided to switch back to what originally was alexsommer.github.io for static hosting (awesome that GitHub does this for $0 btw...) and then added some records to point to GitHubs hosting services from godaddy.
-
-* * *
 ##### Stack
 * * *
 * DNS host: godaddy.com
